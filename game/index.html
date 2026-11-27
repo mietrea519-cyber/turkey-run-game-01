@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Turkey Run — Great Thanksgiving Escape</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="stage">
+    <canvas id="game" width="960" height="540" aria-label="Turkey Run game canvas"></canvas>
+    <div id="hud" class="hidden">
+      <div class="hud-left">
+        <span id="hud-score">SCORE 0</span>
+        <span id="hud-distance">0 m</span>
+        <span id="hud-stage">FARMYARD</span>
+      </div>
+      <div class="hud-right">
+        <span id="hud-hearts" aria-label="lives"></span>
+        <span id="hud-farmer">FARMER 24 m</span>
+      </div>
+    </div>
+    <div id="hint">SPACE jump &middot; DOWN slide &middot; SHIFT dash &middot; P pause &middot; M sound</div>
+  </div>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
